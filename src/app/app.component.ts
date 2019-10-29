@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UtilityService } from './services/utility.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Merchant';
+
+  constructor( private utilityService: UtilityService){}
+
+  ngOnInit(){
+    // change this later to reflect the enepoints as per the environment
+    this.utilityService.setApiEndpoints( 'dev' );
+  }
 }

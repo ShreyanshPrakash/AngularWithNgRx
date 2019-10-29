@@ -1,0 +1,35 @@
+{
+    "leftNavContent": [
+        {
+            "icon": "path",
+            "badge": true,
+            "cssAfter": false,
+            "displayContent": "",
+            "isLogo": true
+        }
+    ],
+
+    "rightNavContent": [
+        {
+            "icon": "path",
+            "badge": true,
+            "cssAfter": false,
+            "displayContent": "Notification",
+            "isLogo": false
+        },
+        {
+            "icon": "path",
+            "badge": false,
+            "cssAfter": false,
+            "displayContent": "Activity",
+            "isLogo": false
+        },
+        {
+            "icon": "path",
+            "badge": false,
+            "cssAfter": false,
+            "displayContent": "Write us",
+            "isLogo": false
+        }
+    ]
+}

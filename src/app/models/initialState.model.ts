@@ -15,10 +15,14 @@ export class UIStateModel{
 
     error: ErrorModel;
     success: SuccessModel;
+    isPageLoading: boolean;
+
 
     constructor(){
         this.error = new ErrorModel();
         this.success = new SuccessModel();
+        this.isPageLoading = false;
+
     }
 
 }
